@@ -115,6 +115,9 @@ rem ---------------------------------------------------------------------------
 
 setlocal
 
+set "JAVA_HOME=C:\Program Files\Java\jdk-11.0.16"
+set "JRE_HOME=C:\Program Files\Java\jdk-11.0.16"
+
 rem Suppress Terminate batch job on CTRL+C
 if not ""%1"" == ""run"" goto mainEntry
 if "%TEMP%" == "" goto mainEntry
