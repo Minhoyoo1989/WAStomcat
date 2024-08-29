@@ -1,4 +1,8 @@
 logs/
+logs/*.log
+logs/*.txt
 temp/
+temp/*tmp
 conf/Catalina/
 work/
+work/Catalina/localhost/ROOT/org/apache/jsp/*.java
